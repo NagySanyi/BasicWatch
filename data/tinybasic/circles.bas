@@ -1,0 +1,11 @@
+5 REM Random circles
+10 CLS
+20 FOR Z = 0 TO 10 
+30 A = RND (230)
+40 B = RND (230)
+50 R = RND (110)
+60 CIRCLE A, B, R
+70 NEXT Z
+75 DELAY 2000
+80 TEXT
+90 PRINT "Done"
